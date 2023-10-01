@@ -88,7 +88,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 overflow-x-scroll flex hide-scroll gap-7">
+      <div className="mt-20 flex-col md:flex-row overflow-x-scroll flex hide-scroll gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
