@@ -225,3 +225,8 @@
   background: #915EFF; 
   border-radius: 10px;
 }
+
+
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
